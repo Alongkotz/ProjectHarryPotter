@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hhh"
+    tools:context="com.aon.projectharrypotter.Main4Activity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#23232323"
+       android:layout_marginTop="128dp"
+       android:layout_marginRight="24dp"
+       android:layout_marginLeft="24dp"
+       android:layout_marginBottom="128dp"
+       >
+
+       <TextView
+           android:layout_width="match_parent"
+           android:text="Score "
+           android:textSize="24dp"
+           android:textColor="#ffff"
+           android:gravity="center"
+           android:layout_height="match_parent" />
+
+   </LinearLayout>
+
+</RelativeLayout>
